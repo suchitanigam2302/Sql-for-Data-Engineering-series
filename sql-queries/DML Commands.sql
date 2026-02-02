@@ -31,3 +31,11 @@ WHERE id = 6;
 
 SELECT *
 FROM customers
+
+--DELETE ALL CUSTOMERS WITH ID GREATER THAN 5
+
+DELETE FROM customers
+WHERE id > 5;
+
+SELECT *
+FROM customers
