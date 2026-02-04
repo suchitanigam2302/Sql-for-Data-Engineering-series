@@ -32,3 +32,12 @@ WHERE score < 500;
 SELECT *
 FROM customers
 WHERE score <= 500;
+
+/* The company wants to identify employees who are eligible for a performance reward. 
+An employee is eligible if their score is greater than 500, country is not Germany, and score is not equal to 0.*/
+
+SELECT *
+FROM customers
+WHERE score > 500
+	  AND country <> 'Germany'
+	  AND score <> 0;
