@@ -3,7 +3,12 @@
 SELECT *
 FROM customers;
 
--- = Operator
+-- = Operator  RETRUEVE ALL CUSTOMERS FROM USA
 SELECT *
 FROM customers
-WHERE country = 'USA'
+WHERE country = 'USA';
+
+--RETRIEVE ALL CUSTOMERS WHO ARE NOT FROM GERMANY "<> OPERATOR"
+SELECT *
+FROM customers
+WHERE country <> 'Germany';
