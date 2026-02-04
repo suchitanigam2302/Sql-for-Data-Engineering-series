@@ -12,3 +12,8 @@ WHERE country = 'USA';
 SELECT *
 FROM customers
 WHERE country <> 'Germany';
+
+--RETRIEVE ALL CUSTOMERS WHO ARE NOT FROM GERMANY
+SELECT *
+FROM customers
+WHERE country <> 'Germany';
