@@ -1,0 +1,9 @@
+--FILTERING DATA USING COMPARSION OPERATOR
+
+SELECT *
+FROM customers;
+
+-- = Operator
+SELECT *
+FROM customers
+WHERE country = 'USA'
