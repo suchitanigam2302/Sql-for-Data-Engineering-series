@@ -17,3 +17,8 @@ WHERE country <> 'Germany';
 SELECT *
 FROM customers
 WHERE country <> 'Germany';
+
+--RETRIEVE ALL CUSTOMERS WITH THE SCORE OF 500 AND MORE
+SELECT *
+FROM customers
+WHERE score >= 500;
