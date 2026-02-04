@@ -22,3 +22,8 @@ WHERE country <> 'Germany';
 SELECT *
 FROM customers
 WHERE score >= 500;
+
+--RETRIEVE ALL CUSTOMERS WITH THE SCORE LESS THAN 500 
+SELECT *
+FROM customers
+WHERE score < 500;
