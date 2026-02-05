@@ -41,3 +41,9 @@ FROM customers
 WHERE score > 500
 	  AND country <> 'Germany'
 	  AND score <> 0;
+
+	            --  LOGICAL OPERATORS --
+/* RETRIEVE ALL CUSTOMERS WHO ARE FROM THE USA AND HAE A SCORE GREATER THAN 500*/
+SELECT *
+FROM customers
+WHERE country = 'USA' AND score > 500;
