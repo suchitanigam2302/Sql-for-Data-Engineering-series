@@ -84,3 +84,8 @@ WHERE first_name LIKE 'M%';
 SELECT *
 FROM customers
 WHERE first_name LIKE '%n';
+
+--FIND ALL CUSTOMERS WHOSE FIRST NAME CONATINS 'R'
+SELECT *
+FROM customers
+WHERE first_name LIKE '%r%';
