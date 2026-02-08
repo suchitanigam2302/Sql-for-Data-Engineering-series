@@ -63,3 +63,9 @@ WHERE NOT score < 500;
 SELECT *
 FROM customers
 WHERE score BETWEEN 100 AND 500;
+
+                   --- MEMBERSHIP OPERATOR ---
+--RETRIEVE ALL CUSTOMERS FROM EITHER GERMANY OR USA
+SELECT *
+FROM customers
+WHERE country = 'Germany' OR country = 'USA';
