@@ -73,3 +73,9 @@ WHERE country IN ('Germany','USA');
 SELECT *
 FROM customers
 WHERE country NOT IN ('Germany','USA');
+
+                   --- SEARCH OPERATOR ---
+--FIND ALL CUSTOMERS WHOSE NAME STARTS WITH 'M'
+SELECT *
+FROM customers
+WHERE first_name LIKE 'M%';
