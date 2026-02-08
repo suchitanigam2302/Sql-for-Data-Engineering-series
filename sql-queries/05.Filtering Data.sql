@@ -79,3 +79,8 @@ WHERE country NOT IN ('Germany','USA');
 SELECT *
 FROM customers
 WHERE first_name LIKE 'M%';
+
+--FIND ALL CUSTOMERS WHOSE NAME ENDS WITH 'N'
+SELECT *
+FROM customers
+WHERE first_name LIKE '%n';
