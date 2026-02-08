@@ -94,3 +94,7 @@ WHERE first_name LIKE '%r%';
 SELECT *
 FROM customers
 WHERE first_name LIKE '__r%';
+
+SELECT *
+FROM customers
+WHERE country = 'Germany' AND first_name LIKE 'M%';
