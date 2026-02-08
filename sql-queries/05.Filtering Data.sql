@@ -89,3 +89,8 @@ WHERE first_name LIKE '%n';
 SELECT *
 FROM customers
 WHERE first_name LIKE '%r%';
+
+--FIND ALL CUSTOMERS WHOSE FIRST NAME HAS 'R' IN THE THIRD POSITION
+SELECT *
+FROM customers
+WHERE first_name LIKE '__r%';
