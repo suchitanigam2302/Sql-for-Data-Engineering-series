@@ -68,4 +68,8 @@ WHERE score BETWEEN 100 AND 500;
 --RETRIEVE ALL CUSTOMERS FROM EITHER GERMANY OR USA
 SELECT *
 FROM customers
-WHERE country = 'Germany' OR country = 'USA';
+WHERE country IN ('Germany','USA');
+
+SELECT *
+FROM customers
+WHERE country NOT IN ('Germany','USA');
