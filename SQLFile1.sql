@@ -1,0 +1,4 @@
+-- RETRIEVE ALL CUSTOMERS FROM GERMANY ---
+SELECT *
+FROM customers
+WHERE country = 'Germany' 
