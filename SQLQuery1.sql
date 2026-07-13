@@ -1,7 +1,0 @@
--- RETRIEVE ALL ORDER DATA --
-SELECT *
-FROM orders 
-
-SELECT TOP 3 *
-FROM orders	
-ORDER BY order_date DESC
